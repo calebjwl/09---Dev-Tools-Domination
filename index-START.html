@@ -18,24 +18,42 @@
     }
 
     // Regular
+    console.log('hello');
 
-    // Interpolated
+    // Interpolated - %s
+    console.log('hello my name is %s', 'Caleb');
 
-    // Styled
+    // Styled - %c
+    console.log('%c Styled text', 'font-size: 50px');
 
     // warning!
+    console.warn('Oh no!');
 
     // Error :|
+    console.error('ERROR');
 
     // Info
+    console.info('Check out this information');
 
     // Testing
+    // If assertion is incorrect, it will display message
+    // console.assert(1 == 8, 'That is wrong!');
+
+    const p = document.querySelector('p');
+
+    console.assert(p.classList.contains('ouch'), 'That is incorrect!')
 
     // clearing
+    console.clear();
 
     // Viewing DOM Elements
+    console.log(p);
+    console.dir('p');
+
+    console.clear();
 
     // Grouping together
+
 
     // counting
 
